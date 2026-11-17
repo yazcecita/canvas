@@ -1,0 +1,45 @@
+/* Ejercicio 3.1.1 */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#miCanvas {
+    border: 2px solid cornflowerblue;
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 160, 199, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    max-width: 100%;
+}
+
+/* 6. Práctica principal: Una planta en crecimiento */
+/* PARTE B */
+
+.seccion-grafico {
+    text-align: center;
+    padding: 25px;
+}
+
+#canvasPlanta {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border: 2px solid cornflowerblue;
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 160, 199, 1) 50%, rgba(237, 221, 83, 1) 100%);
+}
+
+/* RETO INDIVIDUAL */
+
+.seccion-grafico {
+    text-align: center;
+    padding: 25px;
+}
+
+#canvasArbol {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border: 2px solid cornflowerblue;
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 160, 199, 1) 50%, rgba(237, 221, 83, 1) 100%);
+}
