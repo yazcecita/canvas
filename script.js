@@ -6,20 +6,20 @@ const contexto = canvas.getContext("2d");
 // Ejercicio 3.1.3. Dibujando figuras geométricas
 // Dibujar un rectángulo 
 contexto.fillStyle = "blue";
-contexto.fillRect(50, 50, 120, 70);
+contexto.fillRect(30, 60, 170, 90);
 
 // Dibujar un círculo 
 contexto.beginPath();
-contexto.arc(250, 85, 35, 0, Math.PI * 2);
-contexto.fillStyle = "orange";
+contexto.arc(270, 100, 55, 0, Math.PI * 2);
+contexto.fillStyle = "brown";
 contexto.fill();
 
 // Dibujar una línea
 contexto.beginPath();
-contexto.moveTo(350, 50);
+contexto.moveTo(257, 20);
 contexto.lineTo(450, 120);
 contexto.strokeStyle = "pink";
-contexto.lineWidth = 4;
+contexto.lineWidth = 6;
 contexto.stroke();
 
 // Ejercicio 3.1.4 Incorporando texto 
@@ -34,7 +34,7 @@ contexto.fillText("Yazmin Reyes López", 50, 230);
 
 // Ejercicio 3.1.5. Modificando un gráfico
 contexto.fillStyle = "purple";
-contexto.fillRect(50, 50, 120, 70);
+contexto.fillRect(30, 60, 170, 90);
 
 // 6. Práctica principal: Una planta en crecimiento
 // 1. Obtener el Canvas y preparar el contexto
